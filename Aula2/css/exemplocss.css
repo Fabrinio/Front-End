@@ -1,0 +1,14 @@
+body{
+    font-size: 24px;
+}
+#titulo, p{
+    color: aqua;
+}
+
+p.verde{
+    color: blueviolet;
+}
+
+strong{
+    color: red;
+}

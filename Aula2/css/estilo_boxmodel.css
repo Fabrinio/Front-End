@@ -1,0 +1,38 @@
+html{
+    background-image: url(https://img.r7.com/images/maracana-torcida-flamengo-16052018114117907?dimensions=660x360&&resize=660x360&crop=780x425+0+85);
+}
+body {
+  font-family: Arial;
+  font-size: 20px;
+}
+
+.texto1,
+.texto2,
+.texto3 {
+  width: 600px;
+  background-color: darkslategrey;
+  text-align: justify;
+}
+
+.texto1 {
+  border: 10px solid gold;
+  padding: 30px;
+  /*mantem o tamanho original da caixa aumentando a altura da caixa (crescendo para dentro)*/
+  box-sizing: border-box;
+}
+.texto2 {
+    border: 10px solid coral;
+    box-sizing: border-box;
+}
+.texto3 {
+    background-color: brown;
+    height: 30px;
+}
+
+p {
+  color: blanchedalmond;
+    margin: 10px;
+}
+h1{
+    color: blanchedalmond;
+}

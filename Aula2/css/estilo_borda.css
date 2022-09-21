@@ -1,0 +1,21 @@
+body{
+    font-size: 20px;
+    font-family: Arial;
+}
+h1{
+    /* setando uma borda */
+    border-width: thin;
+    border-color: firebrick;
+    border-style: solid;
+}
+/* shorthand, tudo que esta no de cima apenas em uma linha */
+a{
+    border: thick dashed chocolate;
+}
+p{
+    width: 250px;
+    height: 250px;
+    border: 5px dotted black;
+    border-radius: 30px 20px 0px 40px;
+    background-color: chartreuse;
+}

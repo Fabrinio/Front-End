@@ -1,0 +1,19 @@
+h1 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+#titulo {
+    color: blue;
+}
+.destacar {
+    color: brown;
+}
+p.missao {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+}
+
+strong{
+    color: black;
+}

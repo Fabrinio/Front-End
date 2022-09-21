@@ -1,0 +1,21 @@
+body{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* mostrando como posso usar 'herança' de propiedades em comum */
+.texto1, .texto2{
+    color: blanchedalmond;
+    font-family: fantasy;
+    width: 600px;
+    border: 6px solid mediumturquoise;
+    background-color: dimgrey;
+    padding: 20px;
+    text-align: justify;
+    margin: 0;
+}
+
+.texto2{
+    margin-left: 0px;
+}
