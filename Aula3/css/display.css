@@ -1,0 +1,26 @@
+body {
+    font-size: 24px;
+}
+.empresa {
+    background-color: darkgoldenrod;
+}
+.area {
+    background-color: darkslategray;
+}
+.celular{
+    background-color: deepskyblue;
+}
+.impresora{
+    background-color: indigo;
+}
+.computador{
+    background-color: linen;
+}
+.roteador{
+    background-color: lightsteelblue;
+}
+.computador, .roteador{
+    display: inline-block;
+    height: 120px;
+    width: 160px;;
+}

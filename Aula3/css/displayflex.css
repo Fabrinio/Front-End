@@ -1,0 +1,35 @@
+body{
+    background-color: bisque;
+    display: flex;
+    height: 100vh; /* usado para usar a visualização da tela */
+    align-items: center;
+    justify-content: space-evenly;
+}
+.container{
+    background-color: deeppink;
+    border: 3px solid darkgoldenrod;
+    width: 640px;
+    height: 480px;
+    display: flex;
+    /* transforma uma coluna em linha */
+    align-items: center;
+    /* apos o flex consigo alinha uma linha dentro do bloco pai, na vertical*/
+    justify-content: space-evenly;
+    /* justifica o conteudo de acordo com oq vc mandar na direita, na horizontal */
+}
+.elemento{
+    background-color: teal;
+    border: 2px solid khaki;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.elemento2{
+    background-color: deeppink;
+    border: 2px solid darkgoldenrod;
+    width: 60px;
+    height: 60px;
+}

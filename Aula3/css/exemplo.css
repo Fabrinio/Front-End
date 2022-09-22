@@ -1,0 +1,10 @@
+/* dessa forma muda apenas o strong dentro da classe missão, isso eh chamado de seletores descendentes */
+article > #titulo > strong{
+    color: yellow;
+}
+
+/* mostra quem eh o filho direto da classe */
+.missao > .teste{
+    color: brown;
+}
+
