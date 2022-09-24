@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento</title>
+    <style>
+        div{
+            width: 150px;
+            height: 150px;
+            border: 1px solid #0719;
+        }
+    </style>
+</head>
+<body>
+    <div id="caixa" onmouseover="alterarCor(this, '#ff9')" onmouseleave="alterarCor(this, '#000')">
+        <button onclick="alert('Curso de HTML')" onmouseover="alterarPosicao(this)">Enviar</button>
+    </div>
+
+    <script>
+        function alterarCor(obj,cor){
+            obj.style.backgroundColor = cor;
+        }
+
+        function alterarPosicao(obj) {
+            obj.style.position = 'absolute';
+            obj.style.left = Math.random()*400+"px"; //math.round eh o arrendondamento
+            obj.style.top =  Math.random()*400+"px";
+        }
+    </script>
+</body>
+</html>

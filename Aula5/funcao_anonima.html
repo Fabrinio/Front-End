@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Função Anônima</title>
+</head>
+<body>
+    <script>
+        /*let mostrar = function(nome, idade){
+            //Interpolação uso da aspa e do dolar com as chaves
+            document.write(`Hello world! Nome: ${nome} Idade: ${idade}`);
+        }
+        mostrar("Lucas", 19);*/
+
+        /*let exibir = function() {
+            document.write("JS");            
+        }
+
+        //arrow function
+        let exibir2 = () => document.write("JS");
+
+        exibir2(); */
+
+        let soma = function(a, b) {
+            return (a + b);
+        }
+
+        document.write(soma(10, 50));
+        document.write("<br>");
+
+        let soma2 = (a,b) => a+b;
+        
+        document.write(soma2(20,20));
+
+    </script>
+</body>
+</html>

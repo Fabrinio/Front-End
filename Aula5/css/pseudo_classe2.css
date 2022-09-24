@@ -1,0 +1,10 @@
+.conteudo div{
+    font-family: Arial;
+    color: forestgreen;
+    border: 3px solid hotpink;   
+}
+
+.conteudo div:nth-child(odd){
+    background-color: cadetblue;
+
+}

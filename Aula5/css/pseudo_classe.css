@@ -1,0 +1,27 @@
+/* usando pseudo classes */
+.meu-link:link {
+    color: green
+}
+.meu-link:visited{
+    color:red
+}
+.meu-link:hover{
+    color:orange
+}
+
+.disciplinas{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.disciplinas li{
+    color: firebrick
+}
+
+.disciplinas li:first-child{
+    color:darkslategray
+}
+
+.disciplinas li:last-child{
+    color: pink
+}
